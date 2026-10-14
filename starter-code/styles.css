@@ -47,3 +47,83 @@ span {
   border: none;
   padding: 1em 2em;
 }
+
+.circle {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 48px;
+  width: 48px;
+  border: 1px solid #000;
+  border-radius: 50%;
+  margin-bottom: 2em;
+}
+
+.cards h2 {
+  margin-bottom: 2em;
+}
+
+.card1 > p,
+.card2 > p,
+.card3 > p {
+  width: 20%;
+}
+
+.card1, .card2, .card3 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 2em;
+}
+
+.founder {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #fff;
+  padding: 3em;
+  position: relative;
+}
+
+.founder img {
+  width: 335px;
+  height: 280px;
+  object-fit: cover;
+}
+
+.founder-btn {
+  background-color: #44FFA1;
+  border: none;
+  padding: 1em 2em;
+}
+
+.founder-message {
+  background-color: #24053E;
+  width: 335px;
+  padding: 4em;
+  position: relative;
+  margin-top: -4em;
+  z-index: 1;
+}
+
+.founder-message h2 {
+  margin-bottom: 1em;
+}
+
+.founder-message > p {
+  margin-bottom: 1em;
+}
+
+footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 3em;
+  padding: 4em;
+}
+
+.socials {
+  display: flex;
+  justify-content: space-between;
+  gap: 3em;
+}
