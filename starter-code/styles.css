@@ -127,3 +127,10 @@ footer {
   justify-content: space-between;
   gap: 3em;
 }
+
+@media (min-width: 60em) {
+  .founder-message {
+    margin-top: -4em;
+    margin-left: 25em;
+  }
+}
